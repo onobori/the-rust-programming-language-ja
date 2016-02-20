@@ -10,6 +10,9 @@
 
 | English                        | 日本語
 |:-------------------------------|:-------------
+| abort                          | アボート
+| (lockの) acquire               | 獲得
+| aggregate type                 | 合成型
 | alignment                      | アラインメント
 | allocator                      | アロケータ
 | antipattern                    | アンチパターン
@@ -18,6 +21,7 @@
 | array                          | 配列
 | assignment                     | 代入
 | associated -                   | 関連-
+| atomic                         | アトミック
 | attribute                      | アトリビュート
 | binary                         | バイナリ
 | binding                        | 束縛
@@ -25,13 +29,18 @@
 | borrowing                      | 借用
 | bounds                         | 境界
 | bug                            | バグ
-| channel                        | チャネル
 | capture                        | キャプチャ
+| case analysis                  | 場合分け
+| channel                        | チャネル
 | closure                        | クロージャ
 | coercion                       | 型強制
+| combinator                     | コンビネータ
 | comma                          | カンマ
 | compile-time error             | コンパイル時エラー
 | compiler                       | コンパイラ
+| composable                     | 合成可能
+| computer science               | コンピュータサイエンス
+| concurrency                    | 並行性
 | constant                       | 定数
 | constructor                    | コンストラクタ
 | continuous integration         | 継続的インテグレーション
@@ -43,8 +52,8 @@
 | dereferencing                  | 参照外し
 | destructor                     | デストラクタ
 | destructuring                  | 分配
-| directory                      | ディレクトリ
 | directive                      | ディレクティブ
+| directory                      | ディレクトリ
 | discriminant                   | 判別子
 | distribution                   | 配布物
 | diverge                        | ダイバージ
@@ -52,15 +61,21 @@
 | documentation comment          | ドキュメンテーションコメント
 | documentation test             | ドキュメンテーションテスト
 | early return                   | 早期リターン
-| error                          | エラー
+| empty tuple                    | 空タプル
+| encode                         | エンコード
 | enum                           | 列挙型
 | equality                       | 等値性
+| ergonomic                      | エルゴノミック（人間にとって扱いやすいもの）
+| error                          | エラー
+| error handling                 | エラーハンドリング
 | expression statement           | 式文
 | feature                        | フィーチャ
 | foreign                        | 他言語
+| free-standing function         | フリースタンディングな関数
 | generic parameter              | ジェネリックパラメータ
 | generics                       | ジェネリクス
 | growable                       | 伸張可能
+| handle                         | ハンドル
 | hash                           | ハッシュ
 | identifier                     | 識別子
 | immutable                      | イミュータブル
@@ -71,8 +86,8 @@
 | installer                      | インストーラ
 | interpolate                    | インターポーレートする
 | interpolation                  | インターポーレーション
-| keyword                        | キーワード
 | Intrinsics                     | Intrinsic
+| keyword                        | キーワード
 | Lang Items                     | Lang Item
 | leak                           | リーク
 | lending                        | 貸付け
@@ -87,8 +102,8 @@
 | memory                         | メモリ
 | method                         | メソッド
 | move                           | ムーブ
-| mutable                        | ミュータブル
 | mutability                     | ミュータビリティ
+| mutable                        | ミュータブル
 | mutable binding                | ミュータブルな束縛
 | null                           | ヌル
 | offline                        | オフライン
@@ -101,6 +116,7 @@
 | ownership                      | 所有権
 | panic                          | パニック
 | parametric polymorphism        | パラメトリック多相
+| parse                          | パース、パースする
 | patch                          | パッチ
 | pattern                        | パターン
 | performance                    | パフォーマンス
@@ -110,20 +126,26 @@
 | raw pointer                    | 生ポインタ
 | re-assignment                  | 再代入
 | rebind                         | 再束縛
+| reference count                | 参照カウント
 | regression                     | リグレッション
 | release                        | リリース
+| (lockの) release               | 解放
 | return                         | 返す
+| return type                    | リターン型
+| return value                   | 戻り値
 | safe                           | 安全
 | safety check                   | 安全性検査
 | scope                          | スコープ
 | scoped                         | スコープ化された
 | script                         | スクリプト
+| semantics                      | セマンティクス
 | shadow                         | 覆い隠す
 | shadowing                      | シャドーイング
 | signature                      | シグネチャ
 | signed                         | 符号付き
 | slice                          | スライス
 | slicing                        | スライシング
+| standard library               | 標準ライブラリ
 | string                         | 文字列
 | string interpolation           | 文字列インターポーレーション
 | struct                         | 構造体
@@ -133,16 +155,25 @@
 | syntactic sugar                | 糖衣構文
 | system                         | システム
 | tagged union                   | タグ付き共用体
+| term                           | 項
+| thread-locality                | スレッドローカル性
+| threadsafe                     | スレッドセーフ
 | tick                           | クオート
 | trait                          | トレイト
-| type inference                 | 型推論
+| tuple                          | タプル
+| type alias                     | 型エイリアス
 | type family                    | 型族
+| type inference                 | 型推論
+| type parameter                 | 型パラメータ
 | uninstall                      | アンインストール
+| unit  注: `()` の読み           | ユニット
 | Universal Function Call Syntax | 共通の関数呼び出し構文
 | unsafe                         | アンセーフ
 | unsigned                       | 符号無し
 | unsized type                   | サイズ不定型
 | unwinding                      | 巻き戻し
+| unwrap                         | アンラップ
+| value constructor              | 値コンストラクタ
 | variable                       | 変数
 | variable binding               | 変数束縛
 | variant                        | ヴァリアント
@@ -150,3 +181,4 @@
 | version                        | バージョン
 | warning                        | ウォーニング
 | wildcard                       | ワイルドカード
+| wrapper                        | ラッパ
